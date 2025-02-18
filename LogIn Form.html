@@ -6,13 +6,29 @@
     <title>Login Form</title>
     <!-- link bootstrap -->
     <link rel="stylesheet" href="BootStrap/bootstrap.min.css">
+    <!-- link css -->
+     <link rel="stylesheet" href="style Login.css">
 </head>
 <body>
-    <div>
-        <label for="name">UserName:</label> <input type="text" id="name"><br><br>
-        <label for="pass">PassWord:</label> <input type="text" id="pass"><br><br>
-        <button class="btn btn-success">Login</button>  <button class="btn btn-danger">Cancel</button><br><br>
-        <a href="Register Form.html" target="_blank"><button class="btn btn-info ">Register</button></a>
+    <div class="card">
+        <h3 class="text-center">Login</h3>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">UserName</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter your username">
+            </div>
+            <div class="mb-3">
+                <label for="pass" class="form-label">Password</label>
+                <input type="password" id="pass" class="form-control" placeholder="Enter your password">
+            </div>
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-success">Login</button>
+                <button type="reset" class="btn btn-danger">Cancel</button>
+            </div>
+        </form>
+        <div class="text-center mt-3 d-grid gap-2">
+            <a href="Register Form.html" target="_blank" class="btn btn-info">Register</a>
+        </div>
     </div>
 </body>
 </html>
