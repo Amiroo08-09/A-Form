@@ -1,35 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register Form</title>
+<html lang="fa_IR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>فرم ثبت نام</title>
     <!-- link bootstrap -->
-    <link rel="stylesheet" href="BootStrap/bootstrap.min.css">
+    <link rel="stylesheet" href="BootStrap/bootstrap.min.css" />
     <!-- link css -->
-     <link rel="stylesheet" href="style Register.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style Register.css" />
+  </head>
+  <body dir="rtl">
     <div class="card">
-        <h3 class="text-center">Register</h3>
-        <form>
-            <div class="mb-3">
-                <label for="name" class="form-label">UserName</label>
-                <input type="text" id="name" class="form-control" placeholder="Enter your username">
-            </div>
-            <div class="mb-3">
-                <label for="pass" class="form-label">Password</label>
-                <input type="password" id="pass" class="form-control" placeholder="Enter your password">
-            </div>
-            <div class="mb-3">
-                <label for="confirm-pass" class="form-label">Confirm Password</label>
-                <input type="password" id="confirm-pass" class="form-control" placeholder="Confirm your password">
-            </div>
-            <div class="d-grid gap-2">
-                <button type="submit" class="btn btn-success">Register</button>
-                <button type="reset" class="btn btn-danger">Cancel</button>
-            </div>
-        </form>
+      <h3 class="text-center">ثبت نام</h3>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">نام کابری</label>
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            placeholder="Enter your username"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="pass" class="form-label">گذر واژه</label>
+          <input
+            type="password"
+            id="pass"
+            class="form-control"
+            placeholder="Enter your password"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="confirm-pass" class="form-label">تکرار گذرواژه</label>
+          <input
+            type="password"
+            id="confirm-pass"
+            class="form-control"
+            placeholder="Confirm your password"
+          />
+        </div>
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-success">ثبت نام</button>
+          <button type="reset" class="btn btn-danger">خروج</button>
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
