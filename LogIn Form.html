@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Form</title>
     <!-- link bootstrap -->
-    <link rel="stylesheet" href="BootStrap/bootstrap.min.css">
+    <link rel="stylesheet" href="BootStrap/bootstrap.min.css" />
     <!-- link css -->
-     <link rel="stylesheet" href="style Login.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style Login.css" />
+  </head>
+  <body dir="rtl">
     <div class="card">
-        <h3 class="text-center">Login</h3>
-        <form>
-            <div class="mb-3">
-                <label for="name" class="form-label">UserName</label>
-                <input type="text" id="name" class="form-control" placeholder="Enter your username">
-            </div>
-            <div class="mb-3">
-                <label for="pass" class="form-label">Password</label>
-                <input type="password" id="pass" class="form-control" placeholder="Enter your password">
-            </div>
-            <div class="d-grid gap-2">
-                <button type="submit" class="btn btn-success">Login</button>
-                <button type="reset" class="btn btn-danger">Cancel</button>
-            </div>
-        </form>
-        <div class="text-center mt-3 d-grid gap-2">
-            <a href="Register Form.html" target="_blank" class="btn btn-info">Register</a>
+      <h3 class="text-center">ورود</h3>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">نام کاربری</label>
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            placeholder="Enter your username"
+          />
         </div>
+        <div class="mb-3">
+          <label for="pass" class="form-label">گذر واژه</label>
+          <input
+            type="password"
+            id="pass"
+            class="form-control"
+            placeholder="Enter your password"
+          />
+        </div>
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-success">ورود</button>
+          <button type="reset" class="btn btn-danger">خروج</button>
+        </div>
+      </form>
+      <div class="text-center mt-3 d-grid gap-2">
+        <a href="Register Form.html" target="_blank" class="btn btn-info"
+          >ثبت نام</a
+        >
+      </div>
     </div>
-</body>
+  </body>
 </html>
